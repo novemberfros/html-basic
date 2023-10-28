@@ -1,0 +1,95 @@
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(82, 134, 212),
+    rgb(234, 236, 241)
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  margin-top: 100px;
+}
+.ops {
+  display: inline;
+  color: white;
+  font-size: 60px;
+  font-weight: 10;
+}
+.center {
+  display: inline;
+  color: rgba(255, 219, 59, 0.918);
+  font-size: 60px;
+  font-family: Poppins;
+  font-weight: 800;
+}
+.v {
+  margin-top: 5px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 10;
+  font-family: Poppins;
+}
+.signin {
+  margin-top: 5px;
+  color: white;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 10;
+  font-family: Poppins;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 350px;
+  background-color: white;
+  padding: 100px 40px;
+}
+.img {
+  width: 150px;
+  align-self: center;
+  padding-top: 0px;
+  margin-bottom: 30px;
+}
+.input {
+  height: 50px;
+  background-color: rgb(208, 231, 241);
+  border: 0.5px solid grey;
+  border-radius: 5px;
+}
+.button {
+  margin-top: 15px;
+  padding: 5px;
+  background-color: rgb(61, 168, 218);
+  font-size: 15px;
+  font-weight: 10;
+  font-family: Poppins;
+  color: white;
+  border-radius: 5px;
+}
+.checkbox,
+.rem {
+  display: inline;
+  font-size: 15px;
+  font-weight: 10;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(131, 127, 127, 0.856);
+}
+
+.needhelp {
+  text-align: end;
+  font-size: 15px;
+  font-weight: 10;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(131, 127, 127, 0.856);
+}

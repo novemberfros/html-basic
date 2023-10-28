@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Coming soon</h1>
+    <a href="/">Go home page</a>
+    <hr />
+    <form action="/contact.html" method="get" enctype="multipart/form-data">
+      <p>
+        <label for="">First Name*</label>
+        <input type="text" required minlength="3" maxlength="7" name="fname" />
+      </p>
+
+      <p>
+        <label for="">Last Name*</label>
+        <input type="text" required name="Lname" />
+      </p>
+
+      <p>
+        <label for="">Mobile</label>
+        <input type="number" required />
+      </p>
+
+      <p>
+        <label for="">Email</label>
+        <input type="email" />
+      </p>
+      <p>
+        <label for="">Age</label>
+        <input type="number" min="18" max="65" />
+      </p>
+      <p>
+        <label for="">Password</label>
+        <input type="password" required />
+      </p>
+      <p>
+        <label for="">linked</label>
+        <input type="url" />
+      </p>
+      <p>
+        <label for="">DOB</label>
+        <input type="date" />
+        <input type="time" required />
+      </p>
+      <p>
+        <label for="">Gender</label>
+        <input type="radio" name="gender" id="mID" />
+        <label for="mID">Male</label>
+        <input type="radio" name="gender" id="fID" />
+        <label for="fID">Female</label>
+        <input type="radio" name="gender" id="oID" />
+        <label for="oID">Other</label>
+      </p>
+
+      <p>
+        <input type="checkbox" name="" id="" />
+        <label for="">I agree T&Cs</label>
+      </p>
+      <p>
+        <label for="">Furits:</label>
+        <select name="" id="" multiple>
+          <option value="">--select one--</option>
+          <option value="Banana">Banana</option>
+          <option value="Apple">Apple</option>
+          <option value="Mango">Mango</option>
+          <option value="Berry">Berry</option>
+          <option value="Carrot">Carrot</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="">Select file</label>
+        <input type="file" name="" id="" accept="image/*" multiple />
+      </p>
+      <p>
+        <label for="">Message</label>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+      </p>
+
+      <p>
+        <!-- <button>Submit</button> -->
+        <input type="submit" />
+      </p>
+    </form>
+  </body>
+</html>
